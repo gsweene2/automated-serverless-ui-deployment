@@ -18,18 +18,18 @@ const dev = {
 
 const prod = {
   s3: {
-    REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
-    BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
+    REGION: "us-east-1",
+    BUCKET: "garretts-notes-service-prod-attachmentsbucket-45kadg09pe9b"
   },
   apiGateway: {
-    REGION: "YOUR_PROD_API_GATEWAY_REGION",
-    URL: "YOUR_PROD_API_GATEWAY_URL"
+    REGION: "us-east-1",
+    URL: "https://2gssvci93k.execute-api.us-east-1.amazonaws.com/prod"
   },
   cognito: {
-    REGION: "YOUR_PROD_COGNITO_REGION",
-    USER_POOL_ID: "YOUR_PROD_COGNITO_USER_POOL_ID",
-    APP_CLIENT_ID: "YOUR_PROD_COGNITO_APP_CLIENT_ID",
-    IDENTITY_POOL_ID: "YOUR_PROD_IDENTITY_POOL_ID"
+    REGION: "us-east-1",
+    USER_POOL_ID: "us-east-1_2IGyFmTdL",
+    APP_CLIENT_ID: "79pjocr53rhet1ra5k0660156v",
+    IDENTITY_POOL_ID: "us-east-1:50cf7e3f-b06b-4a5a-b1a4-460c89bdd8b4"
   }
 };
 
